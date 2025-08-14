@@ -1,0 +1,29 @@
+.containerp
+{
+    display: flex;
+    /* border: red solid 2px; */
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+}
+.itemp
+{
+    /* border: 2px purple solid; */
+    height: 150px;
+    width: auto;
+}
+.itemp button
+{
+    margin-bottom: auto;
+    margin-right: auto;
+}
+.changeb
+{
+    margin-left: auto;
+    margin-top: 30px ;
+}
+.resetb
+{
+    margin-top: 40px;
+    margin-left: auto;
+}

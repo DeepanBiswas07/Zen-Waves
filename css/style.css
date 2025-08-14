@@ -1,0 +1,80 @@
+body.body
+{
+   background-repeat: no-repeat;
+   background-size: cover; /* fills the whole screen */
+   background-position: center;
+   background-attachment: fixed;
+}
+
+
+div.mainheading
+{
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+h1.heading
+ {
+    font-family: 'Times New Roman'; 
+    color: rgb(255, 255, 255);
+    font-size: 92px; font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+ }
+p.phrase
+{
+    font-family: Arial;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    text-align: center;
+    text-decoration: wavy;
+    margin-top: 0px;
+}
+
+
+div.pauseplay
+{
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+button.ppause
+{
+    background: transparent;
+    border: 2px solid transparent;
+    height: 150px;
+    width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;   
+}
+img.ppimage
+{
+    height: 200px;
+    width: 200px;
+}
+
+
+div.volume
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+img.volume
+{
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    width: 50px;
+    
+}
+input.involume
+{
+   width: 150px;
+}
+
+div.imgnslider
+{
+    margin-top: 50px;
+    margin-bottom: auto;
+}

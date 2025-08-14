@@ -1,0 +1,114 @@
+.container1
+{
+    display: flex;
+    /* border: 2px solid red; */
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+.item1
+{
+    height: 80px;
+    width: 150px;
+    /* border: 2px solid purple; */
+    margin: 2px;
+}
+.item1 button
+{
+    margin-top: 0px;
+    margin-left: 90px;
+    background: transparent;
+    border: 2px solid transparent;
+}
+.item1 img
+{
+    height: 60px;
+    width: auto;
+}
+.item1 input
+{
+    margin-top: 27px;
+    margin-left: auto;
+    margin-right: 150px;
+}
+.container
+{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    position: relative;
+    flex-direction: row;
+    /* column-gap: 2px; */
+}
+.item
+{
+    height: 120px;
+    width: 10px;
+    /* border: 2px solid rgb(56, 175, 193); */
+    /* margin: 2px; */
+}
+.item input
+{
+    margin-top: 135px;
+    margin-left: 0px;
+    position: absolute;
+    left: 130px;
+}
+.container2
+{
+    padding-left: 200px;
+    position: relative;
+    width: 200px;
+    height: 150px;
+}
+
+.overlap
+{   
+    align-items: center;
+    margin-left: auto;
+    position: absolute;
+    width: 100px; ;
+    height:auto ;
+    
+}
+
+.image1
+{   
+    
+    position: absolute; /* Allows precise placement within the container */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 110px; /*maintain original image width*/
+    height: 110px;
+    max-width: 100%; /* Ensure image doesn't exceed container width */
+    max-height: 100%; /* Ensure image doesn't exceed container height */
+    z-index: 1;
+}
+
+.image2
+{   
+    
+    position: absolute; /* Allows precise placement within the container */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 110px; /*maintain original image width*/
+    height: 110px;
+    max-width: 100%; /* Ensure image doesn't exceed container width */
+    max-height: 100%; /* Ensure image doesn't exceed container height */
+    z-index: 2;
+}
+
+.container-grid 
+{
+    display: grid;
+    place-items: center; /* Center both horizontally and vertically */
+    height: 200px;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zen Waves</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/overlap.css">
+    <link rel="stylesheet" type="text/css" href="css/pauseplay.css">
+    <link rel="stylesheet" type="text/css" href="css/slidersolor.css">
+    <link rel="icon" href="images/favicon.png" type="image/png" />
+</head>
+<body id="mainbody" class="body" background="images/bg1.jpg">
+
+    <header>
+        
+    </header>
+            <div class="mainheading">       <!--division for main name-->
+                <h1 class="heading">
+                    <b>ZEN WAVES</b>
+                </h1>
+                <p class="phrase">"Where Tranquility Meets Sounds"</p>
+            </div>
+            <div class="containerp pauseplay"> 
+                <div class="itemp">
+                    <button id="resetbutton" class="ppause">
+                        <img class="resetb" id="resetid" src="images/reset.png" height="120px">
+                    </button>
+                </div>                                         <!-- division for pause play button-->
+                <div class="itemp">
+                    <button id="buttonid" class="ppause" >
+                        <img id="imageid" class="ppimage" src="images/play.png" alt="play">
+                    </button>
+                </div>    
+                <div class="itemp">
+                    <button id="resetbutton" class="ppause">
+                        <img id="bgbutton" class="changeb" src="images/bgbutton.png" height="150px">
+                    </button>
+                </div>
+            </div>
+            <div class="volume container1">   <!--division for volume-->
+                <div class="item1">  
+                    <button id="soundbutton">                  
+                    <img id="soundid" class="volume" src="images/sound.png">
+                    </button>
+                </div> 
+                <div class="item1">
+                    <input class="involume" type ="range" id="mainvolume" min ="0" max ="1" step ="0.02" value ="1"> 
+                </div>   
+            </div>
+                           <!--division for sounds-->
+                <br>
+                <br>
+                <div class="container">
+                    <div class="container2 item">
+                        <img class="overlap image1" id="bird1" src="images/Bird1.png">
+                        <img class="overlap image2" id="bird2" src="images/Bird2.png">
+                        <input class="slider" id="birdvolume" type ="range" min ="0" max ="1" step ="0.02" value ="0">
+                        <audio id="birdsound" src="sounds/bird.ogg"></audio> 
+                    </div>
+                    <div class="container2 item">
+                        <img class="overlap image1" id="rain1" src="images/rain1.png">
+                        <img class="overlap image2" id="rain2" src="images/rain2.png">
+                        <input class="slider" id="rainvolume" type ="range" min ="0" max ="1" step ="0.02" value ="0">
+                        <audio id="rainsound" src="sounds/rain.wav"></audio>
+                    </div>
+                    <div class="container2 item">
+                        <img class="overlap image1" id="wave1" src="images/waves1.png">
+                        <img class="overlap image2" id="wave2" src="images/waves2.png">
+                        <input class="slider" id="wavevolume" type ="range" min ="0" max ="1" step ="0.02" value ="0">
+                        <audio id="wavesound" src="sounds/waves.ogg"></audio>
+                    </div>    
+                    <div class="container2 item">
+                        <img class="overlap image1" id="thunder1" src="images/thunder1.png">
+                        <img class="overlap image2" id="thunder2" src="images/thunder2.png">
+                        <input class="slider" id="thundervolume" type ="range" min ="0" max ="1" step ="0.02" value ="0">
+                        <audio id="thundersound" src="sounds/thunder.wav"></audio>
+                    </div>
+                    <div class="container2 item">
+                       <img class="overlap image1" id="water1" src="images/water1.png">
+                        <img class="overlap image2" id="water2" src="images/water2.png">
+                        <input class="slider" id="watervolume" type ="range" min ="0" max ="1" step ="0.02" value ="0">
+                        <audio id="watersound" src="sounds/water.wav"></audio>
+                    </div>
+                    <div class="container2 item">
+                        <img class="overlap image1" id="windchime1" src="images/windchime1.png">
+                        <img class="overlap image2" id="windchime2" src="images/windchime2.png">
+                        <input class="slider" id="windchimevolume" type ="range" min ="0" max ="1" step ="0.02" value ="0">
+                        <audio id="windchimesound" src="sounds/windchimes.wav"></audio>
+                    </div>
+                    <div class="container2 item">
+                        <img class="overlap image1" id="forest1" src="images/forest1.png">
+                        <img class="overlap image2" id="forest2" src="images/forest2.png">
+                        <input class="slider" id="forestvolume" type ="range" min ="0" max ="1" step ="0.02" value ="0">
+                        <audio id="forestsound" src="sounds/forest.wav"></audio>
+                    </div>
+                    <div class="container2 item">
+                        <img class="overlap image1" id="wind1" src="images/wind1.png">
+                        <img class="overlap image2" id="wind2" src="images/wind2.png">
+                        <input class="slider" id="windvolume" type ="range" min ="0" max ="1" step ="0.02" value ="0">
+                        <audio id="windsound" src="sounds/wind.ogg"></audio>
+                    </div>
+                    <div class="container2 item">
+                        <img class="overlap image1" id="fire1" src="images/Fire1.png">
+                        <img class="overlap image2" id="fire2" src="images/Fire2.png">
+                        <input class="slider" id="firevolume" type ="range" min ="0" max ="1" step ="0.02" value ="0">
+                        <audio id="firesound" src="sounds/fire.ogg"></audio>
+                    </div>
+                </div>
+                
+    <footer>
+        
+    </footer>
+    <script src="javascript/script.js"></script>  
+    <script src="javascript/fade.js"></script>
+    <script src="javascript/soundbar.js"></script>
+    <script src="javascript/background.js"></script>
+</body>
+</html>
