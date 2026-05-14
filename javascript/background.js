@@ -1,4 +1,4 @@
-const bgButton = document.getElementById('bgbutton');
+const bgButton = document.getElementById('backgroundbutton');
     const body = document.getElementById('mainbody');
 
     const backgrounds = [

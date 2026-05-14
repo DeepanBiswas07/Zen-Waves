@@ -1,9 +1,13 @@
 body.body
 {
+   min-height: 100vh;
+   margin: 0;
+   background-image: url("../images/bg1.jpg");
    background-repeat: no-repeat;
    background-size: cover; /* fills the whole screen */
    background-position: center;
    background-attachment: fixed;
+   overflow-x: hidden;
 }
 
 
@@ -45,11 +49,24 @@ button.ppause
     display: block;
     margin-left: auto;
     margin-right: auto;   
+    cursor: pointer;
 }
 img.ppimage
 {
     height: 200px;
     width: 200px;
+}
+
+.resetb
+{
+    height: 120px;
+    width: auto;
+}
+
+.changeb
+{
+    height: 150px;
+    width: auto;
 }
 
 
@@ -67,6 +84,58 @@ img.volume
     height: 50px;
     width: 50px;
     
+}
+
+button:focus-visible,
+input:focus-visible
+{
+    outline: 3px solid rgba(255, 255, 255, 0.9);
+    outline-offset: 4px;
+}
+
+@media (max-width: 700px)
+{
+    div.mainheading
+    {
+        margin-top: 32px;
+    }
+
+    h1.heading
+    {
+        font-size: 52px;
+    }
+
+    p.phrase
+    {
+        font-size: 18px;
+    }
+
+    div.pauseplay
+    {
+        margin-top: 24px;
+    }
+
+    button.ppause
+    {
+        height: 100px;
+        width: 100px;
+    }
+
+    img.ppimage
+    {
+        height: 130px;
+        width: 130px;
+    }
+
+    .resetb
+    {
+        height: 82px;
+    }
+
+    .changeb
+    {
+        height: 100px;
+    }
 }
 input.involume
 {
