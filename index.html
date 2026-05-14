@@ -10,7 +10,7 @@
     <link rel="stylesheet" type="text/css" href="css/slidersolor.css">
     <link rel="icon" href="images/favicon.png" type="image/png" />
 </head>
-<body id="mainbody" class="body" background="images/bg1.jpg">
+<body id="mainbody" class="body">
 
     <header>
         
@@ -23,25 +23,25 @@
             </div>
             <div class="containerp pauseplay"> 
                 <div class="itemp">
-                    <button id="resetbutton" class="ppause">
-                        <img class="resetb" id="resetid" src="images/reset.png" height="120px">
+                    <button id="resetbutton" class="ppause" type="button" aria-label="Reset sound levels">
+                        <img class="resetb" id="resetid" src="images/reset.png" alt="reset sound levels">
                     </button>
                 </div>                                         <!-- division for pause play button-->
                 <div class="itemp">
-                    <button id="buttonid" class="ppause" >
+                    <button id="buttonid" class="ppause" type="button" aria-label="Play or pause sounds">
                         <img id="imageid" class="ppimage" src="images/play.png" alt="play">
                     </button>
                 </div>    
                 <div class="itemp">
-                    <button id="resetbutton" class="ppause">
-                        <img id="bgbutton" class="changeb" src="images/bgbutton.png" height="150px">
+                    <button id="backgroundbutton" class="ppause" type="button" aria-label="Change background">
+                        <img id="bgbutton" class="changeb" src="images/bgbutton.png" alt="change background">
                     </button>
                 </div>
             </div>
             <div class="volume container1">   <!--division for volume-->
                 <div class="item1">  
-                    <button id="soundbutton">                  
-                    <img id="soundid" class="volume" src="images/sound.png">
+                    <button id="soundbutton" type="button" aria-label="Mute or unmute sounds">                  
+                    <img id="soundid" class="volume" src="images/sound.png" alt="sound volume">
                     </button>
                 </div> 
                 <div class="item1">
@@ -53,56 +53,56 @@
                 <br>
                 <div class="container">
                     <div class="container2 item">
-                        <img class="overlap image1" id="bird1" src="images/Bird1.png">
-                        <img class="overlap image2" id="bird2" src="images/Bird2.png">
+                        <img class="overlap image1" id="bird1" src="images/Bird1.png" alt="bird sound off">
+                        <img class="overlap image2" id="bird2" src="images/Bird2.png" alt="bird sound on">
                         <input class="slider" id="birdvolume" type ="range" min ="0" max ="1" step ="0.02" value ="0">
                         <audio id="birdsound" src="sounds/bird.ogg"></audio> 
                     </div>
                     <div class="container2 item">
-                        <img class="overlap image1" id="rain1" src="images/rain1.png">
-                        <img class="overlap image2" id="rain2" src="images/rain2.png">
+                        <img class="overlap image1" id="rain1" src="images/rain1.png" alt="rain sound off">
+                        <img class="overlap image2" id="rain2" src="images/rain2.png" alt="rain sound on">
                         <input class="slider" id="rainvolume" type ="range" min ="0" max ="1" step ="0.02" value ="0">
                         <audio id="rainsound" src="sounds/rain.wav"></audio>
                     </div>
                     <div class="container2 item">
-                        <img class="overlap image1" id="wave1" src="images/waves1.png">
-                        <img class="overlap image2" id="wave2" src="images/waves2.png">
+                        <img class="overlap image1" id="wave1" src="images/waves1.png" alt="wave sound off">
+                        <img class="overlap image2" id="wave2" src="images/waves2.png" alt="wave sound on">
                         <input class="slider" id="wavevolume" type ="range" min ="0" max ="1" step ="0.02" value ="0">
                         <audio id="wavesound" src="sounds/waves.ogg"></audio>
                     </div>    
                     <div class="container2 item">
-                        <img class="overlap image1" id="thunder1" src="images/thunder1.png">
-                        <img class="overlap image2" id="thunder2" src="images/thunder2.png">
+                        <img class="overlap image1" id="thunder1" src="images/thunder1.png" alt="thunder sound off">
+                        <img class="overlap image2" id="thunder2" src="images/thunder2.png" alt="thunder sound on">
                         <input class="slider" id="thundervolume" type ="range" min ="0" max ="1" step ="0.02" value ="0">
                         <audio id="thundersound" src="sounds/thunder.wav"></audio>
                     </div>
                     <div class="container2 item">
-                       <img class="overlap image1" id="water1" src="images/water1.png">
-                        <img class="overlap image2" id="water2" src="images/water2.png">
+                       <img class="overlap image1" id="water1" src="images/water1.png" alt="water sound off">
+                        <img class="overlap image2" id="water2" src="images/water2.png" alt="water sound on">
                         <input class="slider" id="watervolume" type ="range" min ="0" max ="1" step ="0.02" value ="0">
                         <audio id="watersound" src="sounds/water.wav"></audio>
                     </div>
                     <div class="container2 item">
-                        <img class="overlap image1" id="windchime1" src="images/windchime1.png">
-                        <img class="overlap image2" id="windchime2" src="images/windchime2.png">
+                        <img class="overlap image1" id="windchime1" src="images/windchime1.png" alt="wind chime sound off">
+                        <img class="overlap image2" id="windchime2" src="images/windchime2.png" alt="wind chime sound on">
                         <input class="slider" id="windchimevolume" type ="range" min ="0" max ="1" step ="0.02" value ="0">
                         <audio id="windchimesound" src="sounds/windchimes.wav"></audio>
                     </div>
                     <div class="container2 item">
-                        <img class="overlap image1" id="forest1" src="images/forest1.png">
-                        <img class="overlap image2" id="forest2" src="images/forest2.png">
+                        <img class="overlap image1" id="forest1" src="images/forest1.png" alt="forest sound off">
+                        <img class="overlap image2" id="forest2" src="images/forest2.png" alt="forest sound on">
                         <input class="slider" id="forestvolume" type ="range" min ="0" max ="1" step ="0.02" value ="0">
                         <audio id="forestsound" src="sounds/forest.wav"></audio>
                     </div>
                     <div class="container2 item">
-                        <img class="overlap image1" id="wind1" src="images/wind1.png">
-                        <img class="overlap image2" id="wind2" src="images/wind2.png">
+                        <img class="overlap image1" id="wind1" src="images/wind1.png" alt="wind sound off">
+                        <img class="overlap image2" id="wind2" src="images/wind2.png" alt="wind sound on">
                         <input class="slider" id="windvolume" type ="range" min ="0" max ="1" step ="0.02" value ="0">
                         <audio id="windsound" src="sounds/wind.ogg"></audio>
                     </div>
                     <div class="container2 item">
-                        <img class="overlap image1" id="fire1" src="images/Fire1.png">
-                        <img class="overlap image2" id="fire2" src="images/Fire2.png">
+                        <img class="overlap image1" id="fire1" src="images/Fire1.png" alt="fire sound off">
+                        <img class="overlap image2" id="fire2" src="images/Fire2.png" alt="fire sound on">
                         <input class="slider" id="firevolume" type ="range" min ="0" max ="1" step ="0.02" value ="0">
                         <audio id="firesound" src="sounds/fire.ogg"></audio>
                     </div>
